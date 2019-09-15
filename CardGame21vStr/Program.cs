@@ -26,7 +26,6 @@ namespace CardGame21vStr
         }
         public void TakeP1()
         {
-            int PointsPlayer1 = 0;
             Console.ReadKey();
             PointsPlayer1 += cards[index];
             Console.WriteLine($"You took card {cards[index]}");
@@ -38,7 +37,6 @@ namespace CardGame21vStr
         }
         public void TakeP2()
         {
-            int PointsPlayer2 = 0;
             PointsPlayer2 += cards[index];
             index++;
             PointsPlayer2 += cards[index];
@@ -76,7 +74,6 @@ namespace CardGame21vStr
                 }
                 if (MorePlayer1 == "1")
                 {
-
                     PointsPlayer1 += cards[index];
                     index++;
                     if (PointsPlayer1 > 21)
