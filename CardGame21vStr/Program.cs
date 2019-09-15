@@ -145,11 +145,9 @@ namespace CardGame21vStr
                 {
 
                     Console.WriteLine("You take cards first");
-                    Console.ReadKey();
                     BJ.TakeP1();
                     BJ.TakeP2();
                     BJ.Comparison();
-                    Console.ReadKey();
                     BJ.MorePlayer1 = "1";
                     BJ.MoreP1();
                     BJ.MoreP2();
@@ -158,11 +156,9 @@ namespace CardGame21vStr
                 else
                 {
                     Console.WriteLine("Computer take cards first");
-                    Console.ReadKey();
                     BJ.TakeP2();
                     BJ.TakeP1();
                     BJ.Comparison();
-                    Console.ReadKey();
                     BJ.MoreP2();
                     BJ.MorePlayer1 = "1";
                     BJ.MoreP1();
